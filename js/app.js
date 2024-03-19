@@ -7,15 +7,17 @@ for (let i = 1; i <= 100; i++) {
     //Aggiungi un controllo sul numero
     //Per i multipli che sono sia multipli di 3 che di 5 stampare "FizzBuzz"
 
-if (i % 3 === 0 && i % 5 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) {
     console.log('FizzBuzz');
-}
+    }
+    
    //Per i multipli di 3 stampare "Fizz" al posto del numero
+
     else if (i % 3 === 0) {
         console.log('Fizz');
     }
 
-//Per i multipli di 5 stampare "Buzz" al posto del numero
+    //Per i multipli di 5 stampare "Buzz" al posto del numero
 
     else if (i % 5 === 0) {
         console.log('Buzz');
